@@ -13,8 +13,7 @@ class BedroomLights(hass.Hass):
         self.light = self.args.get("light", ["light.group_all"])
         #Must be an Array
         self.motion_sensor = self.args.get("motion_sensor")
-               
-        #unused
+
         self.trigger_time_start = self.args.get("trigger_time_start", 0)
         #self.trigger_time_end = self.args.get("trigger_time",0)
         self.trigger_start_offset = self.args.get("trigger_start_offset",0)
