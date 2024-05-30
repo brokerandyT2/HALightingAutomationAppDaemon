@@ -4,7 +4,7 @@ from numpy import number
 from suncalc import  get_times
 from time import sleep
  
- 
+  
 class MotionSensorLights(hass.Hass):
 
     def initialize(self):
