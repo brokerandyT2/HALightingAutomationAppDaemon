@@ -5,7 +5,7 @@ from suncalc import  get_times
 from time import sleep
  
  
-class BedroomLights(hass.Hass):
+class MotionSensorLights(hass.Hass):
 
     def initialize(self):
 
